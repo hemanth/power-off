@@ -1,0 +1,32 @@
+{
+  "name": "power-off",
+  "version": "0.0.0",
+  "description": "Cross OS poweroff.",
+  "license": "MIT",
+  "repository": "hemanth/power-off",
+  "author": {
+    "name": "Hemanth.HM",
+    "email": "hemanth.hm@gmail.com",
+    "url": "h3manth.com"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "shutdown",
+    "poweroff",
+    "halt"
+  ],
+  "dependencies": {
+    "is-linux": "^1.0.1",
+    "is-osx": "^1.0.2",
+    "is-windows": "^0.1.0"
+  }
+}
