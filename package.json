@@ -25,8 +25,8 @@
     "halt"
   ],
   "dependencies": {
-    "is-linux": "^1.0.1",
-    "is-osx": "^1.0.2",
-    "is-windows": "^0.1.0"
+    "is-linux": "1.0.1",
+    "is-osx": "1.0.2",
+    "is-windows": "0.1.0"
   }
 }
