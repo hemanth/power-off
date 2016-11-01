@@ -1,6 +1,6 @@
 {
   "name": "power-off",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Cross OS poweroff.",
   "license": "MIT",
   "repository": "hemanth/power-off",
