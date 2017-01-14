@@ -10,7 +10,7 @@ module.exports = function (cb) {
 	if(isLinux() || isOsx()) {
 		cmd = 'sudo shutdown -h now';
 	} else if(isWindows()) {
-		cmd = 'shutdown -s';
+		cmd = 'shutdown -s -t 0';
 	} else {
 		throw new Error('Unknown OS!');
 	}
