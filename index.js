@@ -15,7 +15,7 @@ module.exports = function (cb) {
 		throw new Error('Unknown OS!');
 	}
 
-	cp.exec(cmd, function (err, stderr, stdout) {
-		cb(err, stderr, stdout);
+	cp.exec(cmd, function (err, stdout, stderr) {
+		cb(err, stout, stderr);
 	});
 };
